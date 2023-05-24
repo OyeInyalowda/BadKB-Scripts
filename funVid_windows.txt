@@ -1,0 +1,35 @@
+REM This is BadKB demo script for linux (tested on Manjaro)
+REM Credit: OyeInyalowda, 23MAY23
+DEFAULT_DELAY 50
+
+REM Open windows notepad and print strings
+GUI r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 750
+STRING *tip* *tap* *tippity* *tap*
+DELAY 1000
+STRING .......
+DELAY 1000
+ENTER
+STRING I'M IN
+DELAY 750
+ENTER
+STRING Now for some tunes
+
+REM Open cmd, open/play youtube video, and lock the screen
+DELAY 1000
+GUI r
+DELAY 250
+STRING cmd
+DELAY 250
+ENTER
+DELAY 500
+STRING start chrome https://youtu.be/gZJfJM_Htvk
+DELAY 250
+ENTER
+DELAY 3000
+SPACE
+DELAY 1500
+GUI l

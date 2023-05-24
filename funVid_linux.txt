@@ -1,0 +1,35 @@
+REM This is BadKB demo script for linux (tested on Manjaro)
+REM Credit: OyeInyalowda, 22MAY23
+DEFAULT_DELAY 50
+
+REM Open Kate using ZSH, print some text
+GUI t
+DELAY 250
+STRING kate -n
+ENTER
+GUI t
+DELAY 500
+CTRL n
+DELAY 250
+STRING *tip* *tap* *tippity* *tap*
+DELAY 1000
+STRING .......
+DELAY 1000
+ENTER
+STRING I'M IN
+DELAY 750
+ENTER
+STRING Now for some tunes
+
+REM Open ZSH again, open/play youtube video, and lock the screen
+DELAY 1000
+GUI t
+DELAY 250
+STRING firefox --new-window https://youtu.be/gZJfJM_Htvk
+ENTER
+DELAY 750
+GUI t
+DELAY 2000
+SPACE
+DELAY 1000
+GUI l

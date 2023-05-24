@@ -1,0 +1,76 @@
+REM This is BadKB script that prints Beavis and Butthead ASCII art on Windows (tested on Manjaro)
+REM Credit: OyeInyalowda, 23MAY23
+REM source: https://www.asciiart.eu/cartoons/beavis-and-butt-head
+DEFAULT_DELAY 50
+
+REM Open windows notepad and print strings
+GUI r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 750
+
+STRING        .------..
+ENTER
+HOME
+STRING      -          -
+ENTER
+HOME
+STRING    /              \
+ENTER
+HOME
+STRING  /                   \
+ENTER
+HOME
+STRING /    .--._    .---.   |
+ENTER
+HOME
+STRING |  /      -__-     \   |
+ENTER
+HOME
+STRING | |                 |  |
+ENTER
+HOME
+STRING  ||     ._   _.      ||
+ENTER
+HOME
+STRING  ||      o   o       ||
+ENTER
+HOME
+STRING  ||      _  |_       ||
+ENTER
+HOME
+STRING  C|     (o\_/o)      |O     Uhhh, this computer
+ENTER
+HOME
+STRING   \      _____      /       is like, busted or
+ENTER
+HOME
+STRING     \ ( /#####\ ) /       something. So go away.
+ENTER
+HOME
+STRING      \  `====='  /
+ENTER
+HOME
+STRING       \  -___-  /
+ENTER
+HOME
+STRING        |       |
+ENTER
+HOME
+STRING        /-_____-\
+ENTER
+HOME
+STRING      /           \
+ENTER
+HOME
+STRING    /               \
+ENTER
+HOME
+STRING   /__|  AC / DC  |__\
+ENTER
+HOME
+STRING   | ||           |\ \
+ENTER
+HOME
+HOME
